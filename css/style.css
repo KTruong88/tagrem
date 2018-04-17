@@ -102,11 +102,15 @@ select {
 
 .gray-background {
   background-color: #f3f3f3;
-  padding: 10px 20px 20px 20px;
+  padding: 10px 40px 20px 40px;
 }
 
 .gray-background-top {
   margin-bottom: 3px;
+}
+
+.gray-background-bottom {
+  padding-top: 40px;
 }
 
 .cards-top,
@@ -119,8 +123,97 @@ select {
 .products {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .filter {
   display: flex;
+}
+
+.filter-text {
+  height: 35px;
+  width: 90px;
+}
+
+.filter-select {
+  height: 35px;
+}
+
+.product-container {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.background-white {
+  background-color: #fff;
+  padding: 15px;
+  width: 23.5%;
+  height: 330px;
+  min-width: 199.75px;
+  margin-bottom: 20px;
+}
+
+.product-title {
+  color: #002b5a;
+  font-size: 17px;
+}
+
+.starting-at {
+  color: #4987ca;
+  font-size: 13px;
+}
+
+.product-text {
+  font-size: 13px;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+.product-text-2 {
+  margin-bottom: 11px;
+}
+
+.learn-more {
+  font-size: 13px;
+  color: #666666;
+  margin-top: -30px;
+}
+
+.learn-more:hover {
+  cursor: pointer;
+}
+
+.product-img-1 {
+  background-image: url("../materials/images/cereal_b.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 170px;
+  width: 170px;
+}
+
+.product-img-2 {
+  background-image: url("../materials/images/flower_b.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 170px;
+  width: 170px;
+}
+
+.product-img-3 {
+  background-image: url("../materials/images/machine_b.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 170px;
+  width: 170px;
+}
+
+.product-img-4 {
+  background-image: url("../materials/images/candy_b.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 170px;
+  width: 170px;
 }
