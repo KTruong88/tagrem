@@ -1,0 +1,54 @@
+h1,
+h2,
+h3 {
+  color: #002b5a;
+  bottom-margin: 42px;
+  text-style: capitalize;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: normal;
+  color: #333;
+}
+
+h3 + p {
+  font-size: 12px;
+}
+h2 + p {
+  font-size: 18px;
+}
+
+h1 + p {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #e2e2e2;
+  margin-bottom: 42px;
+}
+
+.jumbo {
+  margin-bottom: 42px;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.unbold {
+  font-size: 18px;
+  font-weight: 200;
+}
