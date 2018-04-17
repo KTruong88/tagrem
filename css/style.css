@@ -195,6 +195,7 @@ select {
 
 .filter-select {
   height: 35px;
+  border-radius: 3px;
 }
 
 .product-container {
@@ -309,10 +310,104 @@ select {
   }
 }
 
-@media only screen and (max-width: 480px) {
-
+@media only screen and (max-width: 950px) {
+  .card-title-3 {
+    margin-top: 20px;
+  }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 909px) {
+  .background-white {
+    width: 48.6%;
+    min-width: 312px;
+    height: 350px;
+  }
 
+  .product-img-1,
+  .product-img-2,
+  .product-img-3,
+  .product-img-4 {
+    width: 280px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 808px) {
+  .product-img-1 {
+    margin-top: -19px;
+  }
+}
+
+@media only screen and (max-width: 659px) {
+  .card-title-1,
+  .card-title-2,
+  .card-title-3,
+  .card-title-4,
+  .card-title-5,
+  .card-title-6 {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .filter-text {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .background-white {
+    margin-left: -23px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .background-white {
+    margin-left: -31px;
+  }
+
+  .top-header {
+    font-size: 40px;
+  }
+
+  .card-text {
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .top-header {
+    font-size: 35px;
+  }
+
+  .background-white {
+    width: 48.6%;
+    min-width: 272px;
+    height: 350px;
+  }
+
+  .product-img-1,
+  .product-img-2,
+  .product-img-3,
+  .product-img-4 {
+    width: 243px;
+  }
+
+  .product-img-3,
+  .product-img-4 {
+    margin-top: -15px;
+  }
+
+  .product-header {
+    margin-left: -30px;
+    font-size: 30px;
+  }
+
+  .filter-select {
+    width: 144px;
+  }
+
+  .card-text {
+    padding-right: 56px;
+  }
 }
