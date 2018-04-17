@@ -48,6 +48,16 @@ body {
   max-width: 960px;
 }
 
+.text-align {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.title-margins {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
 .unbold {
   font-size: 18px;
   font-weight: 200;
@@ -88,4 +98,29 @@ select {
 .search {
   margin-right: 10px;
   background-color: white;
+}
+
+.gray-background {
+  background-color: #f3f3f3;
+  padding: 10px 20px 20px 20px;
+}
+
+.gray-background-top {
+  margin-bottom: 3px;
+}
+
+.cards-top,
+.cards-bottom {
+  display: flex;
+  margin-left: -10px;
+  margin-right: -20px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter {
+  display: flex;
 }
