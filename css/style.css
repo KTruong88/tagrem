@@ -435,9 +435,33 @@ select {
   }
 }
 
+@media only screen and (max-width: 900px) {
+  #dropdown-1 {
+    height: 1200px;
+  }
+
+  .buy-btn {
+    margin-bottom: -1px;
+  }
+
+  .dropdown-body-wrap {
+    flex-direction: column;
+  }
+
+  .col-left,
+  .col-right {
+    margin-left: 15px;
+    width: 95%;
+  }
+}
+
 @media only screen and (max-width: 808px) {
   .product-img-1 {
     margin-top: -19px;
+  }
+
+  #dropdown-1 {
+    height: 1100px;
   }
 }
 
@@ -450,11 +474,20 @@ select {
   .card-title-6 {
     margin-top: 20px;
   }
+
+  #dropdown-1 {
+    height: 1000px;
+    padding-right: 20px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   .filter-text {
     display: none;
+  }
+
+  #dropdown-1 {
+    padding-right: 30px;
   }
 }
 
@@ -479,6 +512,10 @@ select {
 }
 
 @media only screen and (max-width: 320px) {
+  #dropdown-1 {
+    height: 1100px;
+  }
+
   .top-header {
     font-size: 35px;
   }
