@@ -52,6 +52,11 @@ a {
   max-width: 960px;
 }
 
+.state-finder-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .text-align {
   text-align: justify;
   text-justify: inter-word;
@@ -76,6 +81,11 @@ a {
   color: #002b5a;
   font-size: 20px;
   margin: 20px 10px 20px 10px;
+}
+
+.state-finder {
+  min-width: 319px;
+  border-radius: 3px;
 }
 
 .state-finder > p {
@@ -148,7 +158,7 @@ select {
 }
 
 .card-text-fix {
-  margin-bottom: 48px;
+  margin-bottom: 50px;
 }
 
 .cards {
@@ -264,4 +274,45 @@ select {
   background-size: 100%;
   height: 170px;
   width: 170px;
+}
+
+@media only screen and (min-width: 960px) {
+  .state-finder-row {
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .left {
+    width: 60%;
+  }
+
+  .right {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .state-finder-row {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .state-finder {
+    margin-left: 30px;
+    margin-bottom: 1px;
+    width: 96%;
+  }
+
+  .left {
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+
 }
