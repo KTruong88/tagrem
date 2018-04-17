@@ -52,3 +52,40 @@ body {
   font-size: 18px;
   font-weight: 200;
 }
+
+.background-light {
+  background-color: #f3f3f3;
+  height: 143px;
+}
+
+.state-finder-header {
+  font-size: 20px;
+  margin: 20px 10px 20px 10px;
+}
+
+.state-finder > p {
+  color: #002b5a;
+  margin: 0px 10px 5px 10px;
+  font-size: 12px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  border-radius: 0;
+  font-size: 13px;
+  margin-left: 10px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.finder {
+  display: flex;
+}
+
+.search {
+  margin-right: 10px;
+  background-color: white;
+}
