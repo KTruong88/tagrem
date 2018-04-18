@@ -15,5 +15,6 @@ State Selector with autocomplete feature
 Filter the items by price range
 ![screenshot of homepage](https://github.com/KTruong88/tagrem/blob/master/materials/images/tagrem4.png)
 
+Dynamic content rendered on the modal based on selected input
 ![screenshot of homepage](https://github.com/KTruong88/tagrem/blob/master/materials/images/tagrem5.png)
 
