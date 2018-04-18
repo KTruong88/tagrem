@@ -8,6 +8,26 @@ $(document).ready(function() {
     });
 });
 
+// State modal
+$(document).ready(function() {
+    $(".search").click(function() {
+      $("#state-modal").show();
+    });
+
+    $(".close-state, .close-word").click(function() {
+        $("#state-modal").hide();
+    });
+
+    $(".states").change(function() {
+      let state = $(this).val()
+    $("#dynamic-state").text(state)
+    })
+});
+
+// $(document).ready(function() {
+//   $('.filter-select').change(function() {
+//     let getVal = parseInt($(this).val());
+
 $(document).ready(function() {
     $(".product-title2, .starting-at2, .product-text2, .product-img-2, .learn-more2").click(function() {
         $("#dropdown-2").show();
@@ -84,8 +104,8 @@ $(document).ready(function() {
 // Filter price
 $(document).ready(function() {
   $('.filter-select').change(function() {
-    let getVal = parseInt($(this).val());
-    switch(getVal) {
+    let val = parseInt($(this).val());
+    switch(val) {
       case 1:
         $('#2, #3, #4').hide();
         $('#1').show();
