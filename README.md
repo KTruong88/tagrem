@@ -9,11 +9,9 @@
 
 ![screenshot of homepage](https://github.com/KTruong88/tagrem/blob/master/materials/images/tagrem1.png)
 
-![screenshot of modal](https://github.com/KTruong88/tagrem/blob/master/materials/images/tagrem2.png)
+![screenshot of homepage](https://github.com/KTruong88/tagrem/blob/master/materials/images/tagrem2.png)
 
-![screenshot of body](https://github.com/KTruong88/tagrem/blob/master/materials/images/tagrem3.png)
+![screenshot of homepage](https://github.com/KTruong88/tagrem/blob/master/materials/images/tagrem4.png)
 
-![screenshot of footer](https://github.com/KTruong88/tagrem/blob/master/materials/images/tagrem4.png)
-
-![screenshot of modal](https://github.com/KTruong88/tagrem/blob/master/materials/images/tagrem5.png)
+![screenshot of homepage](https://github.com/KTruong88/tagrem/blob/master/materials/images/tagrem5.png)
 
