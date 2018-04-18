@@ -415,21 +415,17 @@ select {
   transition: 100ms;
 }
 
-.bullet-sprite2:hover, .bullet-sprite-img2 {
+.bullet-sprite2:hover {
   cursor: pointer;
   padding: 5px 10px 5px 10px;
   transition: 100ms;
 }
 
-/*#id1 a:hover,#fakeDiv1 a {background:red}*/
-
-/*.bullet-sprite-img1:hover,
-.bullet-sprite-img2:hover,
-.bullet-sprite-img3:hover {
+.bullet-sprite3:hover {
   cursor: pointer;
   padding: 5px 10px 5px 10px;
   transition: 100ms;
-}*/
+}
 
 .list {
   margin-bottom: 10px;
@@ -462,7 +458,11 @@ select {
   cursor: pointer;
 }
 
-.x:hover {
+.x:hover,
+.x-1:hover,
+.x-2:hover,
+.x-3:hover,
+.x-4:hover {
   cursor: pointer;
 }
 @media only screen and (min-width: 960px) {

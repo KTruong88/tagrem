@@ -80,3 +80,30 @@ $(document).ready(function() {
       })
     });
 });
+
+// Filter price
+$(document).ready(function() {
+  $('.filter-select').change(function() {
+    let getVal = parseInt($(this).val());
+    switch(getVal) {
+      case 1:
+        $('#2, #3, #4').hide();
+        $('#1').show();
+        break;
+      case 2:
+        $('#1, #2, #3').hide();
+        $('#4').show();
+        break;
+      case 3:
+        $('#1, #3, #4').hide();
+        $('#2').show();
+        break;
+      case 4:
+        $('#1, #2, #4').hide();
+        $('#3').show();
+        break;
+      default:
+      $('#1, #2, #3, #4').show();
+    }
+  })
+})
