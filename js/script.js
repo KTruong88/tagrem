@@ -8,7 +8,7 @@ $(document).ready(function() {
     });
 });
 
-// State modal
+// State picker modal
 $(document).ready(function() {
     $(".search").click(function() {
       $("#state-modal").show();
@@ -23,10 +23,6 @@ $(document).ready(function() {
     $("#dynamic-state").text(state)
     })
 });
-
-// $(document).ready(function() {
-//   $('.filter-select').change(function() {
-//     let getVal = parseInt($(this).val());
 
 $(document).ready(function() {
     $(".product-title2, .starting-at2, .product-text2, .product-img-2, .learn-more2").click(function() {
@@ -62,7 +58,7 @@ $(document).ready(function() {
     });
 });
 
-// On over: bulletsprites
+// On hover: bulletsprites
 $(document).ready(function() {
     $(".bullet-sprite1").hover(function() {
         $(".bullet-sprite-img1").animate({
