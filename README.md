@@ -7,6 +7,7 @@
 <h4>A modern product website</h4>
 <p>Fully-responsive, sample website featuring autocomplete searchbar, sorting items by price, and a dynamic modal based on selected item. HTML5, CSS3, jQuery</p>
 
+State Selector with autocomplete feature
 ![screenshot of homepage](https://github.com/KTruong88/tagrem/blob/master/materials/images/tagrem1.png)
 
 ![screenshot of homepage](https://github.com/KTruong88/tagrem/blob/master/materials/images/tagrem2.png)
