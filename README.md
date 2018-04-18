@@ -12,6 +12,7 @@ State Selector with autocomplete feature
 
 ![screenshot of homepage](https://github.com/KTruong88/tagrem/blob/master/materials/images/tagrem2.png)
 
+Filter the items by price range
 ![screenshot of homepage](https://github.com/KTruong88/tagrem/blob/master/materials/images/tagrem4.png)
 
 ![screenshot of homepage](https://github.com/KTruong88/tagrem/blob/master/materials/images/tagrem5.png)
