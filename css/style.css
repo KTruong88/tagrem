@@ -458,6 +458,22 @@ select {
   cursor: pointer;
 }
 
+.product-title4:hover {
+  cursor: pointer;
+}
+
+.product-img-2:hover {
+  cursor: pointer;
+}
+
+.product-img-3:hover {
+  cursor: pointer;
+}
+
+.product-img-4:hover {
+  cursor: pointer;
+}
+
 .x:hover,
 .x-1:hover,
 .x-2:hover,
@@ -528,6 +544,12 @@ select {
     height: 1200px;
   }
 
+  .bullet-sprite-img1,
+  .bullet-sprite-img2,
+  .bullet-sprite-img3 {
+    display: none;
+  }
+
   .buy-btn {
     margin-bottom: -1px;
   }
@@ -586,6 +608,10 @@ select {
   #dropdown-4 {
     padding-right: 30px;
   }
+
+  .state-finder {
+    margin-bottom: 20px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -605,6 +631,11 @@ select {
 
   .card-text {
     padding-right: 20px;
+  }
+
+  .state-finder {
+    min-width: 260px;
+    width: 260px;
   }
 }
 
