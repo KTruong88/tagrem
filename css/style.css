@@ -61,6 +61,11 @@ ul {
   flex-wrap: wrap;
 }
 
+.states {
+  margin-left: 10px;
+  width: 85%;
+}
+
 .text-align {
   text-align: justify;
   text-justify: inter-word;
@@ -90,6 +95,7 @@ ul {
 .state-finder {
   min-width: 319px;
   border-radius: 3px;
+  padding: 0px 10px 0px 10px;
 }
 
 .state-finder > p {
